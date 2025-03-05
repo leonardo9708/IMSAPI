@@ -16,5 +16,7 @@ namespace WebApplication1.DBcontext
         }
 
         public DbSet<Incident> Incident { get; set; }
+
+        public DbSet<Users> SupportUsers { get; set; }
     }
 }

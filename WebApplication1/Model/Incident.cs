@@ -2,6 +2,7 @@
 {
     public class Incident
     {
+        public int Id { get; set; }
         public required string Category { get; set; }
         public required string Description { get; set; }
         public string? Comments { get; set; }
